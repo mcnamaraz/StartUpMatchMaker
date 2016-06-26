@@ -39,32 +39,77 @@ a {
   font-size: 20px;
   font-family: Times;
   height: auto;
+  letter-spacing: 2px;
 
 }
 
 
 .nav {
+
 font-size: 18px;
 
 }
 
 
-  .navigation {
-  display: inline-block;
-  padding-top: 15px;
-  padding-right: 20px;
-  padding-bottom: 20px;
-  padding-left: 300px;
-  text-decoration: none;
-  font-weight: 300;
+.blah {
+
+background-color: white;
+text-align: right;
 
 }
 
 
+.navigation {
+  display: inline-block;
+  padding-top: 15px;
+  padding-right: 20px;
+  padding-left: 20%;
+  padding-bottom: 20px;
+  text-decoration: none;
+  font-weight: 300;
+  text-align: right;
+
+}
+
+.coworking {
+  width: 100%;
+  height: auto;
+  display: inline-block;
+}
+
+.overimage {
+  position: absolute; 
+  top: 100px;
+  left: 650px; 
+  font-size: 30px;
+  color: black;
+  background-color: white;
+  width: 200px;
+  height: 400px;
+  opacity: 0.75;
+  border-style: solid;
+  border-color: black;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 50px;
+
+
+}
+
+.imagebox { 
+   position: relative; 
+width: 100%;
+  height: auto;
+}
+
+
+
 .allcaps {
-font-size: 22px;
+
+font-size: 24px;
 text-transform: uppercase;
 font-weight: 700;
+font-style: bold;
 
 }
 
@@ -108,14 +153,22 @@ text-decoration: underline;
 
 }
 
+.backgroundimage {
+
+background-image: url("coworking.jpg");
+
+}
+
 .mainimage {
-  width: 50%;
+ width: 100%;
   height: auto;
 }
 
 .threecolumn {
   display: flex;
   flex-wrap: nowrap;
+  padding-top: 15px;
+  padding-bottom: 75px;
   
 
 }
@@ -123,31 +176,60 @@ text-decoration: underline;
 .header {
   font-weight: 700;
   font-family: Times;
+  font-size: 35px;
 }
+
+
+.subtext {
+font-weight: 700;
+font-family: sans-serif;
+color: black;
+font-size: 20px;
+
+}
+
 
 .ctabuttons {
   vertical-align: center;
   background-color: #c6c6c6;
-  height: 25px;
+  height: auto;
   margin-left: auto;
   margin-right: auto;
   padding-top: 15px;
-  padding-left: 60px;
-  padding-right:60px;
+  padding-left: 30px;
+  padding-right:30px;
   padding-bottom: 15px;
   text-align: center;
   display: inline-block;
-  font-size: 18px;
   font-style: normal;
   border: #033048;
   border-radius: 7px;
   color: black;
+  box-shadow: 5px 5px 0px #888888;
+
 }
 
 .one  {
 padding-right: 25px;
 padding-left: 25px;
 
+
+}
+
+.copyright {
+  padding-top: 25px;
+  padding-bottom: 10px;
+  padding-left: 50px;
+  font-size: 8px;
+  color: white;
+  letter-spacing: 2px;
+  background-color: black;
+
+}
+
+.footer {
+  font-size: 14px;
+  font-weight: 300;
 
 }
 
